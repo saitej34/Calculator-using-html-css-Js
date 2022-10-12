@@ -1,0 +1,22 @@
+.x{
+    width:700px;
+    height:700px;
+    background-color:rgb(255, 255, 255);
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border:2px solid black;
+}
+.res{
+    width:695px;
+    height:100px;
+    text-align:center;
+    font-size:30px;
+}
+.b
+{
+    width:120px;
+}

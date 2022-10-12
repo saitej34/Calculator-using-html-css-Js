@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcicss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+      <div class="x">
+          <input type="text" placeholder="Result" class="res" id="final">
+          <div class="container">
+            <br/>
+            <div class="row">
+                <div class="col-md-4"><input type="button" value="1" onClick="one()" class="b btn btn-warning" id="one"></div>
+                <div class="col-md-4"><input type="button" value="2" onClick="two()" class="b btn btn-warning" id="two"></div>
+                <div class="col-md-4"><input type="button" value="3" onClick="three()" class="b btn btn-warning" id="three"></div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4"><input type="button" value="4" onClick="four()" class="b btn btn-warning" id="four"></div>
+                <div class="col-md-4"><input type="button" value="5" onClick="five()" class="b btn btn-warning" id="five"></div>
+                <div class="col-md-4"><input type="button" value="6" onClick="six()" class="b btn btn-warning" id="six"></div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-3"><input type="button" value="7" onClick="seven()" class="b btn btn-warning" id="seven"></div>
+                <div class="col-md-3"><input type="button" value="8" onClick="eight()" class="b btn btn-warning" id="eight"></div>
+                <div class="col-md-3"><input type="button" value="9" onClick="nine()" class="b btn btn-warning" id="nine"></div>
+                <div class="col-md-3"><input type="button" value="0" onClick="zero()" class="b btn btn-warning" id="nine"></div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-3"><input type="button" value="+" onClick="plus()" class="b btn btn-info"></div>
+                <div class="col-md-3"><input type="button" value="-" onClick="minus()" class="b btn btn-info"></div>
+                <div class="col-md-3"><input type="button" value="/" onClick="div()" class="b btn btn-info"></div>
+                <div class="col-md-3"><input type="button" value="*" onClick="mul()" class="b btn btn-info"></div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-5"><input type="button" value="Calculate" class="btn btn-success" onClick="calci()"></div>
+                <div class="col-md-5"><input type="button" value="Clear" class="btn btn-success" onClick="clear()"></div>
+            </div>
+          </div>
+      </div>
+      <script src="calcijs.js"></script>
+</body>
+</html>
